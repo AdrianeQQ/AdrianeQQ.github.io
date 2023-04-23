@@ -1,0 +1,151 @@
+:root {
+  --main-color: #243e63;
+  --secondary-color: #6415ff;
+  --secondary-color-text: #f7fafc;
+  --secondary-color-darken: #4a00dc;
+  --dark-color-text: #1a202c;
+  --color-gray: #e5e7eb;
+  --color-sources: #a0aec0;
+}
+
+body {
+  margin: 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: var(--main-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.75rem;
+}
+
+.logo__name {
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav__btn {
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--main-color);
+}
+
+.nav__btn:hover,
+.nav__btn:active {
+  cursor: pointer;
+}
+
+.nav__login {
+  margin-left: 3rem;
+}
+
+.btn--special {
+  padding: 0.75rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--secondary-color-text);
+  border-radius: 2rem;
+}
+
+.btn--special:hover {
+  transition: all 0.3s ease;
+  background-color: var(--secondary-color-darken);
+}
+
+.main {
+  max-width: 80rem;
+  margin: auto;
+}
+
+.section--main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 4rem 0 6rem 0;
+}
+
+.main__svg {
+  width: 100%;
+}
+
+.main__heading {
+  font-size: 3rem;
+  color: var(--dark-color-text);
+}
+
+.main__heading span {
+  color: var(--secondary-color);
+}
+
+.main__paragraph {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin: 2rem 0;
+}
+
+.main__form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 28rem;
+}
+
+.main__input {
+  padding: 1.375rem 0 1.375rem 2rem;
+  border-radius: 5rem;
+  border: 2px solid var(--color-gray);
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.main__input::placeholder {
+  letter-spacing: 1px;
+}
+
+.main__btn {
+  position: absolute;
+  right: 0;
+  margin: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+}
+
+.main__customers {
+  margin-top: 5rem;
+}
+
+.main__customers--p {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-sources);
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.main__customers--img {
+  opacity: 0.5;
+  width: calc(100% - 8rem);
+  margin-top: 1rem;
+}
