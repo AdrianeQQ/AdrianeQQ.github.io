@@ -923,7 +923,8 @@ body {
   }
 
   .main__container {
-    width: 32rem;
+    width: 100%;
+    max-width: 32rem;
   }
 
   .main__paragraph {
@@ -973,7 +974,8 @@ body {
   }
 
   .features__box--p {
-    width: 13.25rem;
+    max-width: 13.25rem;
+    width: 100%;
   }
 
   .values__box {
@@ -986,7 +988,8 @@ body {
   }
 
   .pricing__plan {
-    width: 24rem;
+    max-width: 24rem;
+    width: 100%;
     margin: 4rem auto 0.625rem auto;
   }
 
@@ -1060,13 +1063,15 @@ body {
   }
 
   .quality__box {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
   }
 
   .quality__description {
     margin: 3.125rem 0 0 0;
     text-align: center;
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
   }
 
   .quality__head {
@@ -1078,11 +1083,13 @@ body {
   }
 
   .steps__box {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
   }
 
   .steps__description {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
     text-align: center;
     margin: 3.125rem 0 0 0;
   }
@@ -1101,11 +1108,13 @@ body {
   }
 
   .values__image--box {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
   }
 
   .values__description {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
     text-align: center;
     margin: 3.125rem 0 0 0;
   }
@@ -1119,7 +1128,8 @@ body {
   }
 
   .values__box {
-    width: 20rem;
+    max-width: 20rem;
+    width: 100%;
     margin: auto;
   }
 
@@ -1133,7 +1143,8 @@ body {
   }
 
   .clients__box {
-    width: 28rem;
+    max-width: 28rem;
+    width: 100%;
   }
 
   .clients__description {
@@ -1181,12 +1192,14 @@ body {
   }
 
   .main__input {
-    width: 25.875rem;
+    max-width: 25.875rem;
+    width: 100%;
   }
 
   .main__btn {
+    width: 100%;
     position: static;
-    width: 28rem;
+    max-width: 28rem;
     margin: 1rem 0;
   }
 }
