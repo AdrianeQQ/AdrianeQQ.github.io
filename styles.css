@@ -898,6 +898,12 @@ body {
 }
 
 @media (max-width: 64rem) {
+  .svg--1,
+  .svg--2,
+  .svg--5 {
+    display: none;
+  }
+
   .nav {
     display: none;
   }
